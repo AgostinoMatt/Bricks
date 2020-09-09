@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 {
 	public GameObject gameoverPanel;
 	public GameObject menuPanel;
+    public GameObject slider;
 
    
     public AudioClip StartSound;
@@ -142,6 +143,7 @@ public class GameManager : MonoBehaviour
 
 		yield return new WaitForSeconds(0.5f);
 		menuPanel.SetActive (true);
+        slider.SetActive(false);
 		
 	}
 	
