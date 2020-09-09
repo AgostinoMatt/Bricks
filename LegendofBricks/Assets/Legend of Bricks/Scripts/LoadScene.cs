@@ -19,6 +19,9 @@ public class LoadScene : MonoBehaviour
 
 	}
 
-
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene("start");
+    }
 
 }
